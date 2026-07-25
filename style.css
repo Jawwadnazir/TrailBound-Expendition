@@ -1,0 +1,171 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+     --primaryDark:#1B3B2B;
+     --accent:#D96B27;
+    --pageBackground:#F7F6F0;
+    --containerBackground:#FFFFFF;
+    --primaryTextCharcole:#222222;
+    --mutedText:#505560;
+    --lightText:#E5E7EB;
+    --headingsFont: "Montserrat" ;
+    --bodyFont: "Inter" ;
+   
+}
+
+body{
+background-color: var(--pageBackground);
+}
+
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80dvw;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    height: 20dvh;
+}
+
+.logoTitle{
+    display: flex;
+    align-items: center;
+    gap: 0.5px;
+}
+
+.logoTitle .logo{
+width: 60px;
+height: 60px;
+border-radius: 50%;
+background-image: url(/Assests/website\ logo.png);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.logoTitle .title{
+      font-family: var(--headingsFont);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primaryDark);
+}
+
+.navigationLinks ul{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+  
+}
+
+.navigationLinks ul li a{
+  color: var(--primaryTextCharcole);
+    font-family: var(--bodyFont);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+
+}
+
+.navigationLinks ul :last-child a{
+    background-color: var(--accent);
+    color: var(--lightText);
+    padding: 10px 8px;
+    border-radius: 10px;
+}
+
+
+/* ---------------------------- hero section ------------------------------- */
+
+
+
+main .hero{
+    height: 80dvh;
+    background-image: url(/Assests/hero\ section\ background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 30px 0 30px;
+}
+
+.heading1,.heading2{
+    font-family: var(--headingsFont);
+    color: var(--primaryTextCharcole);
+    font-weight: 800;
+    line-height: 1.15;
+}
+
+.des1,.des2{
+    font-family: var(--bodyFont);
+    font-size: 1.1em;
+    line-height: 1.4;
+    font-weight: 600;
+    color: var(--mutedText);
+}
+
+
+
+.btn1{
+    margin: 10px;
+    display: inline-block;
+    color: var(--lightText);
+    font-weight: 600;
+    font-size: 1em;
+    background-color: var(--accent);
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    font-family: var(--bodyFont);
+}
+
+.btn2{
+    display: inline-block;
+    font-family: var(--bodyFont);
+    border: #CCCCCC solid;
+    color: var(--containerBackground);
+    font-size: 1em;
+    font-weight: 500;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+/* --------------------------------stats section------------------------------------ */
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--primaryDark);
+    padding: 15px 0px 15px 0px;
+}
+
+.stat1,.stat2,.stat3,.stat4{
+    font-family: var(--headingsFont);
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--containerBackground);
+    opacity: 0.7;
+}
+
+.stat1des,.stat2des,.stat3des,.stat4des{
+    font-size: 1em;
+    font-weight: 400;
+    font-family: var(--bodyFont);
+    color: var(--containerBackground);
+    opacity: 0.7;
+    text-align: center;
+}
+
+
+/* -------------------------------card section------------------------------------------------- */
+
+
