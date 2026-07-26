@@ -1,6 +1,6 @@
 # TrailBound Expeditions
 
-A clean, responsive landing page for an outdoor hiking and guided expedition company. Built from scratch to practice semantic layout, responsive styling, and modern web design principles.
+A landing page for an outdoor hiking and guided expedition company. Built from scratch to practice semantic layout, responsive styling, and modern web design principles.
 
 🌐 **Live Demo:** [trailbound-expendition.netlify.app](https://trailbound-expendition.netlify.app/)
 
