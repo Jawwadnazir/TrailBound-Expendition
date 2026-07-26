@@ -17,8 +17,8 @@
    
 }
 
-body{
-background-color: var(--pageBackground);
+main{
+    background-color: var(--pageBackground);
 }
 
 .navContainer{
@@ -168,4 +168,69 @@ main .hero{
 
 /* -------------------------------card section------------------------------------------------- */
 
+.headSection{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.headingLabel{
+    font-family: var(--bodyFont);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #6B7280;
+   
+}
+.headHeading{
+font-family: var(--headingsFont);
+font-size: 2em;
+font-weight: 700;
+color: var(--primaryTextCharcole);
+margin-bottom: 10px;
+}
+.trailCards{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
 
+.card1,.card2,.card3{
+   flex: 300px 1 1;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: var(--containerBackground);
+}
+.card1PicContainer,.card2PicContainer,.card3PicContainer{
+    height: 150px;
+}
+.card1PicContainer{
+    background-image: url(/Assests/mountain\ trek.jpg);
+    background-size: cover;
+}
+.card2PicContainer{
+    background-image: url(/Assests/forest\ trek.jpg);
+    background-size: cover;
+}
+.card3PicContainer{
+    background-image: url(/Assests/snow\ mountain\ trek.jpg);
+    background-size: cover;
+}
+.card1Heading,.card2Heading,.card3Heading{
+    font-family: var(--headingsFont);
+    color: var(--primaryTextCharcole);
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.card1Time,.card2Time,.card3Time{
+font-family: var(--bodyFont);
+color: var(--primaryTextCharcole);
+}
+.card1Price,.card2Price,.card3Price{
+    font-weight: 700;
+    font-family: var(--bodyFont);
+    font-size: 1.3em;
+}
+.card1Cta,.card2Cta,.car3Cta{
+    font-family: var(--bodyFont);
+    color: var(--primaryDark);
+}
