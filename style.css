@@ -172,6 +172,8 @@ main .hero{
     width: 70%;
     margin: 0 auto;
     padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 80px;
 }
 .headingLabel{
     font-family: var(--bodyFont);
@@ -234,3 +236,47 @@ color: var(--primaryTextCharcole);
     font-family: var(--bodyFont);
     color: var(--primaryDark);
 }
+
+.ctaBanner{
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45))
+    ,url(/Assests/cta\ banner.jpg);
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+     display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.ctaContent{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ctaHeading{
+    font-family: var(--headingsFont);
+    font-weight: 700;
+    color: var(--containerBackground);
+    font-size: 2em;
+}
+
+.ctaLink{
+    text-decoration: none;
+    font-size: 1em;
+    font-family: var(--headingsFont);
+    font-weight: 700;
+    background-color: var(--accent);
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    color: var(--containerBackground);
+}
+
+
+
+
+
+
